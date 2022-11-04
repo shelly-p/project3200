@@ -1,0 +1,21 @@
+
+.bg-header {
+  background-color: rgb(190, 255, 129);
+  color: antiquewhite;
+}
+
+.white-text {
+  color: antiquewhite;
+}/*# sourceMappingURL=main.css.map */
+
+.blue-button{
+  background-color: rgb(0, 163, 255);
+  font-size: 32px;
+  width: 70%;
+}
+
+.pink-button{
+  background-color: rgb(255, 103, 183);
+  font-size: 32px;
+  width: 70%;
+}

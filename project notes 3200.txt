@@ -1,0 +1,5 @@
+Ask the user if they created the file or if they are submitting
+Ask the user to write the code directly on web page
+	sections needed:
+		code entry
+		output
