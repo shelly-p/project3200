@@ -60,5 +60,7 @@ app.get("/fullStat", function(req,res){
 app.listen(8080);
 compiler.flush(function(){
     console.log("All temporary files flushed");
-
-});
+    var http = require('http');http.createServer(function (req,res){ res.write('Nodejs started using xampp'); res.end();}).listen(8080);
+    console.log('http server started'); 
+}
+);
