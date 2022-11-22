@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign up page</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <!--Navigation bar begin-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-header">
+        <div class="container-fluid">
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href=index.html class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="loginpage.html" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="signup.html" class="nav-link">Sign up</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <!--Navigation bar end-->
+
+    <!-- Page content -->
+    <div>
+        <h2>Dashboard</h2>
+
+        <!-- ask the user to enter the name of the assignment -->
+        <label for="assignmentname">What is the name of the assignment?</label><br>
+        <textarea id="assignmentname"></textarea><br>
+
+        <!-- ask the user to enter the name of each function 
+            that should be present is the program -->
+        <label for="functions">What functions need to be in the program?</label><br>
+        <textarea id="functions"></textarea><br>
+
+        <!-- ask the user what the return of each function should be -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#twitter" />
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#instagram" />
+                    </svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+                        <use xlink:href="#facebook" />
+                    </svg></a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
